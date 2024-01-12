@@ -6,8 +6,9 @@ $(document).ready(function() {
 
 
         const novaTarefa = $('#tarefa').val();
-        const novaLista = $(`<li> ${novaTarefa} </li>`);
+        const novaLista = $(`<li style="display: none;"> ${novaTarefa} </li>`);
         $(novaLista).appendTo('ul');
+        $(novaLista).slideToggle();
 
         $('#tarefa').val('');
 

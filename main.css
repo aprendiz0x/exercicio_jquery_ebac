@@ -1,0 +1,52 @@
+* {
+     box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    color: white;
+}
+
+.container {
+    margin: 0 auto;
+    align-items: center;
+    max-width: 400px;
+    background-color: darkblue;
+}
+
+header {
+    text-align: center;
+    padding: 5px;
+    border-bottom: 1px solid white;
+}
+
+.add-tarefa {
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+form {
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+input, button {
+    padding: 10px;
+}
+input {
+    border: none;
+}
+button {
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+}
+
+ul {
+    justify-content: center;
+    margin: 5px;
+    margin-left: 10%;
+    color: white;
+}
+li {
+    list-style: decimal;
+    padding: 5px;
+}

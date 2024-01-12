@@ -13,10 +13,8 @@ $(document).ready(function() {
 
     });
 
-    $('li').click(function() {
-
+    $("ul").on('click', 'li', function() {
         $(this).css("text-decoration", "line-through");
-
     });
 
 
